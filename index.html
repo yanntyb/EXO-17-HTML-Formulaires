@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="document.getElementById('#nom').focus()">
+    <form action="">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" required>
+        <label for="prenom">Prenom</label>
+        <input type="text" id="prenom" required>
+        <label for="jour">Jour de naissance</label>
+        <input type="number" id="jour">
+        <label for="mois">Mois de naissance</label>
+        <select name="choixMois" id="mois">
+            <option value="Janvier">Janvier</option>
+            <option value="Fevrier">Fevrier</option>
+            <option value="Mars">Mars</option>
+            <option value="Avril">Avril</option>
+            <option value="Mai">Mai</option>
+            <option value="Juin">Juin</option>
+            <option value="Juillet">Juillet</option>
+            <option value="Aout">Aout</option>
+            <option value="Septembre">Septembre</option>
+            <option value="Octobre">Octobre</option>
+            <option value="Novembre">Novembre</option>
+            <option value="Decembre">Decembre</option>
+        </select>
+        <label for="annee">Année de naissance</label>
+        <input type="number" id="annee">
+        <label for="sex">Sex</label>
+        <select name="sex" id="sex">
+            <option value="M">M</option>
+            <option value="F">F</option>
+        </select>
+        <label for="email">email</label>
+        <input type="email" id="email" required>
+        <label for="github">github</label>
+        <input type="text" id="github">
+        <input type="submit" value="Envoyer" name="user_submite">
+
+    </form>
+</body>
+</html>
